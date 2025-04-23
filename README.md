@@ -57,7 +57,7 @@ The code is used to compute the performance metrics for 8 RL option hedging expe
    - Low trading cost
    - Low expiry time
    - Low moneyness (S/K = 0.8)
-   
+
 The source code folder is structured as follows:
  - main (Sub-folder of the library source code):
    - environment (Sub-folder contains code to create the RL)
@@ -69,7 +69,7 @@ The source code folder is structured as follows:
      - train_evaluate_test (Code to train, evaluate and test the RL solution) 
    - settings (Sub-folder used to specify the JSON configuration settings of the RL solution)
    - utility (sub-folder used to specify utility functions used in the RL solution)
-   - test (sub-folder of the library source code unit/integration tests)
+ - test (sub-folder of the library source code unit/integration tests)
 
 ### RLDynamicHedger Notebooks
 There are number of Jupyterlab notebooks used to demo various aspects of the RL solution, these include:
