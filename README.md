@@ -48,6 +48,15 @@ The high-level structure of the code is as follows:
    - hedging_env_3_requirements.txt (List of python packages)
 
 ### Source code folder structure 
+The code is used to compute the performance metrics for 8 RL option hedging experiment settings/ use cases. The computed use cases include:
+   - High trading frequency
+   - High trading cost
+   - High moneyness (S/K = 1.1)
+   - High expiry time
+   - Low trading frequency
+   - Low trading cost
+   - Low expiry time
+   - Low moneyness (S/K = 0.8)
 The source code folder is structured as follows:
  - main (Sub-folder of the library source code):
    - environment (Sub-folder contains code to create the RL)
@@ -73,15 +82,7 @@ There are number of Jupyterlab notebooks used to demo various aspects of the RL 
    - RLDynamicHedger-Reward-Curves-For-Trained-RL-Models.ipynb
  - Demos 4 RL models inference hedging performance results for any of the 8 experiment settings and all simulation (GBM, SABR and Heston) use cases:
    - RLDynamicHedger-Evaluation-For-Tuned-RL-Algo – V2.ipynb
- - Demos hedging performance results (PnL, Rewards, Delta and Trading Cost distributions) and tables of performance metrics for all the 4 RL algorithms and per simulation use case. The computed use cases include:
-     - High trading frequency
-     - High trading cost
-     - High moneyness (S/K = 1.1)
-     - High expiry time
-     - Low trading frequency
-     - Low trading cost
-     - Low expiry time
-     - Low moneyness (S/K = 0.8)
+ - Demos hedging performance results (PnL, Rewards, Delta and Trading Cost distributions) and tables of performance metrics for all the 4 RL algorithms and per simulation use case:
    - RLDynamicHedger-Generate-Results-All-Models - V2.ipynb
  - Demos the consolidation of all the out-of-sample metrics for all the 8 experiment use cases
    - RLDynamicHedger-Consolidate-Hull-Metrics-Per-Use-Case.ipynb
