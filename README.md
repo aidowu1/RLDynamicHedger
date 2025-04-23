@@ -74,14 +74,14 @@ There are number of Jupyterlab notebooks used to demo various aspects of the RL 
  - Demos 4 RL models inference hedging performance results for any of the 8 experiment settings and all simulation (GBM, SABR and Heston) use cases:
    - RLDynamicHedger-Evaluation-For-Tuned-RL-Algo – V2.ipynb
  - Demos hedging performance results (PnL, Rewards, Delta and Trading Cost distributions) and tables of performance metrics for all the 4 RL algorithms and per simulation use case. The computed use cases include:
-     * High trading frequency
-     * High trading cost
-     * High moneyness (S/K = 1.1)
-     * High expiry time
-     * Low trading frequency
-     * Low trading cost
-     * Low expiry time
-     * Low moneyness (S/K = 0.8)
+        - High trading frequency
+        - High trading cost
+        - High moneyness (S/K = 1.1)
+        - High expiry time
+        - Low trading frequency
+        - Low trading cost
+        - Low expiry time
+        - Low moneyness (S/K = 0.8)
    - RLDynamicHedger-Generate-Results-All-Models - V2.ipynb
  - Demos the consolidation of all the out-of-sample metrics for all the 8 experiment use cases
    - RLDynamicHedger-Consolidate-Hull-Metrics-Per-Use-Case.ipynb
