@@ -59,15 +59,15 @@ The code is used to compute the performance metrics for 8 RL option hedging expe
    - Low moneyness (S/K = 0.8)
 
 The source code folder is structured as follows:
- - main (Sub-folder of the library source code):
-   - environment (Sub-folder contains code to create the RL)
-   - market_simulator (Sub-folder contains code to simulate the RL environment)
+ - main (sub-folder of the library source code):
+   - environment (sub-folder contains code to create the RL)
+   - market_simulator (sub-folder contains code to simulate the RL environment)
    - performance_metric (sub-folder contains code for the RL performance metrics)
-   - rl_algorithms (Sub-folder contains code of the RL algorithms used for this solution):
-     - hyper_parameter (Code for hyper-parameter tuning)
-     - policy_gradient (Code for policy gradient RL algorithms)
-     - train_evaluate_test (Code to train, evaluate and test the RL solution) 
-   - settings (Sub-folder used to specify the JSON configuration settings of the RL solution)
+   - rl_algorithms (sub-folder contains code of the RL algorithms used for this solution):
+     - hyper_parameter (code for hyper-parameter tuning)
+     - policy_gradient (code for policy gradient RL algorithms)
+     - train_evaluate_test (code to train, evaluate and test the RL solution) 
+   - settings (sub-folder used to specify the JSON configuration settings of the RL solution)
    - utility (sub-folder used to specify utility functions used in the RL solution)
  - test (sub-folder of the library source code unit/integration tests)
 

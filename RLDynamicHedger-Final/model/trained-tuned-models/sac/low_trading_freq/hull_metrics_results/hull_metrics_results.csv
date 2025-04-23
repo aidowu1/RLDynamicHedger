@@ -1,0 +1,7 @@
+Volatility Model,Hedging Strategy,Mean Cost,Std Cost,Objective Function (mean)
+Constant,DH,0.2362,0.1905,4.0706
+Constant,SAC,2.8977,1.4088,38.9514
+SABR,DH,0.2292,0.194,4.0736
+SABR,SAC,2.9073,1.3975,39.0489
+Heston,DH,0.2794,0.2831,13.2261
+Heston,SAC,0.9382,0.5902,33.6924
